@@ -1,0 +1,17 @@
+definition_version: 2
+
+entities:
+  debit_note_intelligence:
+    type: streamlit
+    identifier: DEBIT_NOTE_APP.CORE.DEBIT_NOTE_INTELLIGENCE
+    title: Debit Note Intelligence
+    main_file: streamlit_app.py
+    runtime_name: SYSTEM$ST_CONTAINER_RUNTIME_PY3_11
+    compute_pool: DEBIT_NOTE_COMPUTE_POOL
+    query_warehouse: DEBIT_NOTE_WH
+    artifacts:
+      - streamlit_app.py
+      - parser_engine.py
+      - snowflake_backend.py
+      - .streamlit/config.toml
+      - pyproject.toml

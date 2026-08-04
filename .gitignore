@@ -1,0 +1,29 @@
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.snowflake/
+
+# Corrupted/misnamed legacy handover artifacts; retained locally for provenance.
+Approve Training.bat
+PUT_EXPECTED_OUTPUT_XLSX_HERE.txt
+PUT_SAMPLE_NEW_CUSTOMER_PDF_HERE.txt
+README_QUICK_START.txt
+Run Processing.bat
+Technical_Design_Debit_Note_Automation (1).docx
+Train New Customer.bat
+User_Guide_Debit_Note_Automation (2).docx
+User_Guide_Debit_Note_Automation.docx
+__init__.py
+app.py
+approve_training.py
+excel_writer.py
+excel_writer.cpython-312.pyc
+install.bat
+parsers.cpython-312.pyc
+pdf_reader.cpython-312.pyc
+requirements.txt
+settings.json
+train_new_customer.py
+validator.cpython-312.pyc
