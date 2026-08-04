@@ -4,6 +4,7 @@ __pycache__/
 .DS_Store
 .env
 .snowflake/
+.tools/
 
 # Corrupted/misnamed legacy handover artifacts; retained locally for provenance.
 Approve Training.bat
